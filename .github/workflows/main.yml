@@ -15,3 +15,6 @@ jobs:
     - name: npm install, build and test
       run: |
         npm install
+        pm2 start server.js
+        pm2 delete all
+        pm2 start server.js
