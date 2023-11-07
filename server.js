@@ -9,6 +9,10 @@ app.get("/gd", (req, res) => {
   res.send("qd");
 });
 
+app.get("/qd", (req, res) => {
+  res.send("gg");
+});
+
 app.listen(3000, () => {
   console.log("app. start");
 });
